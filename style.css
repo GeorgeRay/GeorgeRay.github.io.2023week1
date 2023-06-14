@@ -4,6 +4,12 @@ img {
 body{
     background-color: pink
 }
+header{
+    text-align: center;
+}
+main{
+    margin-left: 20%;
+}
 
 h1{
     background-color: purple;
@@ -14,4 +20,35 @@ h1{
 h2{
     background-color: lightblue;
     padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    
+}
+
+nav a {
+    text-decoration: none;   
+}
+nav{
+    float: left;
+    width: 20%;
+    margin-right: 5px;
+    font-size: 1.5em;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0px;
+    margin: 0px;
+}
+tr, td {
+    border: 1px solid black;
+    padding: 2px;
+
+}
+img{
+    padding: 0px;
 }
