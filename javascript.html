@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    function printName() {
+        const urlParams = new URLSearchParams(window.location.search);
+        let name = urlParams.get('name');
+        while (name == null || name == "") {
+            name = prompt("What is your name?");
+        }
+        var h1 = document.getElementById("greeting");
+        h1.innerHTML = "Hello " + name;
+    }
+
+</script>
+
+<body>
+    <header>
+        <h1>Summer Code Camp</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="owen.html">Owen</a></li>
+            <li><a href="tucker.html">Tucker</a></li>
+            <li><a href="ian.html">Ian</a></li>
+            <li><a href="dylan.html">Dylan</a></li>
+            <li><a href="paysen.html">Paysen</a></li>
+            <li><a href="austin.html">Austin</a></li>
+            <li><a href="briahna.html">Briahna</a></li>
+            <li><a href="krew.html">Krew</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="greeting">Hello</h2>
+        <script>
+            printName();
+        </script>
+    </main>
+</body>
+
+</html>
