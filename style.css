@@ -1,6 +1,12 @@
-img {
-    height: 500px;    
+#indexgallery img {
+    height: 500px;  
+    padding: 0px;  
 }
+
+#rubric img{
+    width: 100%;
+}
+
 body{
     background-color: pink
 }
@@ -8,7 +14,7 @@ header{
     text-align: center;
 }
 main{
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 h1{
@@ -48,9 +54,6 @@ tr, td {
     border: 1px solid black;
     padding: 2px;
 
-}
-img{
-    padding: 0px;
 }
 form{
     margin: 10px;
